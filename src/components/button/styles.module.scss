@@ -1,0 +1,27 @@
+.root {
+   cursor: pointer;
+}
+
+.countButton {
+   width: 20px;
+   height: 20px;
+   background-color: green;
+   border: none;
+   border-radius: 50%;
+
+   &:disabled {
+      background-color: red;
+   }
+}
+
+.navMenuButton {
+   width: 100px;
+   height: 20px;
+   background-color: green;
+   border: none;
+   border-radius: 5px;
+
+   &:disabled {
+      opacity: 0.9;
+   }
+}
